@@ -50,7 +50,7 @@ object Cap6 extends chapter6Interface {
   //
   // E10.
   def factorNumber(value: Int): List[Int] = {
-
+    ???
   }
 
   
