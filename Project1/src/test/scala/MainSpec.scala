@@ -22,7 +22,9 @@ class MainSpec extends FlatSpec with Matchers {
     Cap6.exercise3(7) shouldEqual(true)
   }
 
-
+  it should "Find the Factor" in {
+    Cap6.exercise10(147) shouldEqual(List(3,7,7))
+  }
 
 }
 
